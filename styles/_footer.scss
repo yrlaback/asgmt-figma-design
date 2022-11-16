@@ -1,0 +1,124 @@
+footer {
+    max-width: 1770px;
+    min-height: 271px;
+    width: 100%;
+    margin: auto;
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-items-logo{
+    width: 196px;
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+    letter-spacing: 3.36px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer-text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+}
+.footer-icons{
+    width: 166px;
+    height: 16px;
+    display: flex;
+}
+.fa-facebook-f{
+    width: 39px;
+    height: 26px;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+}
+.fa-twitter{
+    width: 45px;
+    height: 26px;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+}
+.fa-linkedin-in{
+    width: 45px;
+    height: 26px;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #5474FD;
+}
+.fa-youtube{
+    width: 47px;
+    height: 26px;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+}
+.fa-pinterest{
+    width: 44px;
+    height: 26px;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+}
