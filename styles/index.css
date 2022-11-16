@@ -1,8 +1,10 @@
 /*  font-family: 'Aleo', serif;
     font-family: 'Josefin Sans', sans-serif;*/
 header {
+  max-width: 1770px;
   min-height: 821px;
   width: 100%;
+  margin: auto;
   background-image: url(../img/Image1.png);
   background-size: cover;
   display: -webkit-box;
@@ -18,7 +20,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .header-container-text-top {
@@ -35,6 +37,9 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header-name {
@@ -189,6 +194,10 @@ input {
           justify-content: center;
 }
 
+.btn-search:hover {
+  cursor: pointer;
+}
+
 .btn-search-text {
   width: 92px;
   height: 26px;
@@ -208,9 +217,139 @@ input {
   height: 24px;
 }
 
+.scroll-down {
+  width: 108px;
+  height: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.btn-scroll-down {
+  background-color: transparent;
+  border: none;
+}
+
+.btn-scroll-down:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.scroll-down-text {
+  width: 123px;
+  height: 26px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+  letter-spacing: 2.8px;
+  color: #FFFFFF;
+}
+
+.fa-angle-down {
+  color: #FFFFFF;
+}
+
+.header-nav-menu {
+  max-width: 1773px;
+  width: 100%;
+  height: 83px;
+  background: #5474FD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-nav-container {
+  max-width: 1400px;
+  width: 100%;
+  height: 83px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-nav-content-left {
+  width: 186px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-menu-logo {
+  width: 186px;
+  height: 26px;
+  left: 13px;
+  top: 0px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  /* identical to box height, or 108% */
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header-nav-content-right {
+  max-width: 525px;
+  width: 100%;
+  height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 2rem;
+}
+
+.nav-menu-text {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+a:link {
+  text-decoration: none;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+li, ul {
+  list-style: none;
 }
